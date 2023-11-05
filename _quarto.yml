@@ -1,0 +1,41 @@
+project:
+  type: "website"
+
+
+website:
+  title: "Matt Fisher Infrastructure"
+  site-url: "https://mfisher87.github.io/infra"
+  # site-path: "/infra"  # Needed?
+
+  repo-url: "https://github.com/mfisher87/infra"
+  repo-actions:
+    - "edit"
+    - "source"
+    - "issue"
+
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; 2023"
+
+  sidebar:
+    background: "#eee"
+    style: "docked"
+    search: true
+    contents:
+      - text: "Nodes"
+        href: "nodes/index.md"
+        contents: "nodes/*.md"
+      - text: "Services"
+        href: "services/index.md"
+        contents: "services/*.md"
+      - text: "Incidents"
+        href: "incidents/index.md"
+      - text: "Changes"
+        href: "changes/index.md"
+
+
+format:
+  html:
+    theme: "cosmo"
+    css: "styles.css"
+    toc: true
