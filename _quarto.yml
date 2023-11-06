@@ -34,6 +34,9 @@ website:
         href: "incidents/index.md"
       - text: "Changes"
         href: "changes/index.md"
+      - text: "How to"
+        href: "how-to/index.md"
+        contents: "how-to/*.md"
 
 
 format:
