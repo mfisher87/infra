@@ -17,3 +17,8 @@ e.g. if I already have `virtio1`-`virtio4` on VMID `100`, I would add `virtio5`:
 ```bash
 qm set 100 -virtio5 /dev/disk/by-id/ata-HGST_XXXXXXXXXXXXXXX_XXXXXXXX
 ```
+
+:::{.callout-important}
+Backup and replication must be disabled in the Proxmox GUI to avoid these disks being
+included in automated full-disk backups.
+:::
