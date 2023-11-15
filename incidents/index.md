@@ -1,4 +1,5 @@
 ---
 title: "Incidents"
-listing: default
+listing:
+  sort: ["title desc"]
 ---
