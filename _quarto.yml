@@ -19,6 +19,7 @@ website:
 
   sidebar:
     style: "docked"
+    background: "dark"
     search: true
     tools:
       - icon: "github"
@@ -42,8 +43,8 @@ website:
 format:
   html:
     theme:
+      dark: ["slate", "styles.scss"]
       light: ["flatly", "styles.scss"]
-      dark: ["darkly", "styles.scss"]
     toc: true
     # Turn on emoji shortcodes:
     from: "markdown+emoji"
