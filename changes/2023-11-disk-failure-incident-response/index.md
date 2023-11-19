@@ -6,12 +6,10 @@ description: |
 
 ## Storage changes
 
-As a result of this incident, the failed 1TB HDD was replaced with a 1TB HDD in storage
-pool 1. A new 4TB HDD was purchesd to replace this drive in pool 1, increasing its
-capacity from 5TB (4TB + 1TB data + 4TB parity) to 8TB (4TB + 4TB data + 4TB parity).
+The failed 1TB HDD was removed.
 
-In addition, storage pool 2 was created from in stock 8TB disks to provide migration
-space during recovery.
+Pool 1 was grown by adding 4TB and 8TB data disks, and 2x 8TB parity disks, increasing
+drive failure tolerance to 2.
 
 
 ## Deployment changes

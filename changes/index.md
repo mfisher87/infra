@@ -1,4 +1,5 @@
 ---
 title: "Changes"
-listing: default
+listing:
+  type: "table"
 ---
