@@ -4,7 +4,7 @@ description: |
   New storage was added and a new pool was configured in response to this incident.
 ---
 
-## Storage changes
+## Hardware changes
 
 The failed 1TB HDD was removed.
 
