@@ -11,15 +11,20 @@ each cycle, but no beep from the motherboard speaker. The boot loop can be stopp
 holding the power button.
 
 
-## Tried
+## Diagnosis
 
-* Replaced CMOS CR2032 battery: No change in symptoms
-* Removed RAM: No change in symptoms
-* Removed 5 disks: No change in symptoms
+Diagnosed a motherboard failure. Rationale:
 
-
-## To try
-
-* Replace PSU
-* Remove all disks: Label SATA cables, remove power connections
-* Replace motherboard: I really hope not...
+  * Symptoms began after a full shutdown.
+  * Symptoms:
+      * Fans spin for ~1 second on pushing power button, then stop. Repeats after ~1
+        second delay, indefinitely.
+      * No display
+      * No beep from built-in speaker
+      * No POST
+      * Power cycling stops after holding powr button for 5 seconds.
+  * Symptoms unchanged when removing all components (one by one): disks, RAM sticks,
+    CPU.
+  * Symptoms unchanged when replacing (one by one): PSU, PSU cables, wall outlets, CMOS
+    CR2032 battery.
+  * Symptoms unchanged with multiple PSUs, PSU cables, and wall outlets.
