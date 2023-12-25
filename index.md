@@ -6,9 +6,9 @@ title: "My infrastructure"
 
 I have two physical nodes:
 
-1. [Storage](nodes/storage.md): An older build from new parts in a Supermicro chassis with 12
+1. [Storage](/reference/nodes/storage.md): An older build from new parts in a Supermicro chassis with 12
    hotswap drive bays.
-2. [Compute](nodes/compute.md): A newer build from used eBay parts in a Supermicro
+2. [Compute](/reference/nodes/compute.md): A newer build from used eBay parts in a Supermicro
    chassis with lots of airflow.
 
 

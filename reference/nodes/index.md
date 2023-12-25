@@ -1,5 +1,5 @@
 ---
 title: "Nodes"
 listing:
-  type: table
+  type: "grid"
 ---

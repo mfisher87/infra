@@ -23,7 +23,8 @@ need to be recreated from scratch to replace all the services that were running 
 ### Labels!
 
 Finding the physical failed drive was far more of a challenge than I wanted it to be. I
-printed labels for each drive bay on the [storage node](/nodes/storage.md) including:
+printed labels for each drive bay on the [storage node](/reference/nodes/storage.md)
+including:
 
 * Internal SATA port the bay is connected to
 * The drive model currently in the bay
