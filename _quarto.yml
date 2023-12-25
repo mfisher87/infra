@@ -27,8 +27,11 @@ website:
     contents:
       - text: "⚠️ Incidents"
         href: "incidents/index.md"
-      - text: "💡 Changes"
+      - text: "🎉 Changes"
         href: "changes/index.md"
+      - text: "💡 Ideas"
+        href: "ideas/index.md"
+      - text: "---"
       - text: "Nodes"
         href: "nodes/index.md"
         contents: "nodes/*.md"
