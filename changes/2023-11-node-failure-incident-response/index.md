@@ -11,11 +11,6 @@ information.
 ## Hardware changes
 
 * Ordered a replacement `Supermicro X9SCL-F rev1.11a` from eBay (~$20 + shipping).
-* TODO: Install replacement
-
-
-## TODO
-
-- [x] Diagnose failed part(s)
-- [x] Order replacement part(s)
-- [ ] Install replacement part(s)
+* Installed replacement motherboard, which resolved the issue.
+* Upgraded power supply to Corsair TX750.
+* Upgraded CPU cooler to Noctua NH-L9x65.
