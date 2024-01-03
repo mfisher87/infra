@@ -28,3 +28,5 @@ Diagnosed a motherboard failure. Rationale:
   * Symptoms unchanged when replacing (one by one): PSU, PSU cables, wall outlets, CMOS
     CR2032 battery.
   * Symptoms unchanged with multiple PSUs, PSU cables, and wall outlets.
+
+After replacing motherboard, the system resumed functioning.
