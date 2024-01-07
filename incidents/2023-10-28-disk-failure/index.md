@@ -1,5 +1,5 @@
 ---
-title: "2023-10-28: Disk failure"
+title: "✅ 2023-10-28: Disk failure"
 description: |
   A 1TB HDD in the [storage node](/reference/nodes/storage.md) failed. This drive was
   used for VM backups, and (mistakenly) for a services VM disk. This resulted in minor

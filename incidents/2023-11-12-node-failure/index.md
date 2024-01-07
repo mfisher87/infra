@@ -1,5 +1,5 @@
 ---
-title: "2023-11-12: Node failure"
+title: "✅ 2023-11-12: Node failure"
 description: "TODO"
 ---
 
