@@ -8,3 +8,5 @@ listing:
 
 An incident is a (probably bad) thing that happened. For example, a disk failure or
 accidental data loss event.
+
+An incident is considered unresolved unless marked with a ✅ emoji.
