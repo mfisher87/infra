@@ -1,5 +1,5 @@
 ---
-title: "New rackmount UPS"
+title: "✅ New rackmount UPS"
 date: "2023-11-15"
 ---
 
@@ -12,4 +12,4 @@ should get a rackmountable UPS and a rack at this point.
 - [x] Buy a rackmount UPS with spare capacity (the current UPS probably is undersized)
 - [x] Buy a rack (and rails?)
 - [x] Rack mount UPS
-- [ ] Rack mount servers
+- [x] Rack mount servers
