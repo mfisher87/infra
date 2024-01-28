@@ -33,6 +33,7 @@ autoinstall:
   user-data:
     package_upgrade: true
     timezone: "America/Denver"
+    ssh_pwauth: true
     users:
       - name: "mfisher"
         groups: ["adm", "sudo"]

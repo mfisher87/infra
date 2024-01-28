@@ -36,6 +36,17 @@ their filename.
 > **These should never be committed**, and are `.gitignore`d.
 
 
+## Directory structure
+
+In each template directory, there are additional files and directories.
+
+
+### `http/` directory
+
+This is where cloud-init config, which is hosted by a Packer HTTP server during
+provisioning, lives.
+
+
 ## Usage
 
 `cd` into a template directory and run a command to validate or build that template.
@@ -53,6 +64,19 @@ packer validate .
 ```bash
 packer build .
 ```
+
+This will create a VM template in Proxmox.
+
+
+### Instantiating a VM from clone
+
+Right-click the template and select "Clone". A "Linked clone" is fast, but depends on
+the template. A "Full clone" is slower and independent.
+
+:::{.callout-warning}
+It is *very important* to set the IP config in the cloud-init settings of the new VM,
+otherwise networking will fail.
+:::
 
 
 ## References
