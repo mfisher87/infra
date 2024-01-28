@@ -1,0 +1,53 @@
+#cloud-config
+autoinstall:
+  version: 1
+  locale: "en_US"
+  refresh-installer:
+    update: false
+  keyboard:
+    layout: "us"
+
+  ssh:
+    install-server: true
+    allow-pw: true
+    disable_root: true
+    ssh_quiet_keygen: true
+    allow_public_ssh_keys: true
+
+  storage:
+    layout:
+      name: "direct"
+    # NOTE: Is having no swap always a good practice for VMs? I feel like I used to have a better understanding of this :)
+    swap:
+      size: 0
+
+  network:
+    network:
+      version: 2
+      ethernets:
+        # TODO: This seems to be a magic string that all my VMs use for their eth adapters. Why?
+        ens18:
+          dhcp4: true
+
+  # TODO: How to get dotfiles?
+  user-data:
+    package_upgrade: true
+    timezone: "America/Denver"
+    ssh_pwauth: true
+    users:
+      - name: "mfisher"
+        groups: ["adm", "sudo"]
+        lock-passwd: false
+        sudo: "ALL=(ALL) NOPASSWD:ALL"
+        shell: "/bin/bash"
+        ssh_authorized_keys:
+          - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKImIVU+uqyoPo8uWvfhULnJTiJiYXZGBaT4tLKbnsjw robatt@lrpc"
+
+  packages:
+    - "qemu-guest-agent"
+    - "sudo"
+    - "git"
+    - "vim"
+    - "tmux"
+    - "htop"
+    - "make"
